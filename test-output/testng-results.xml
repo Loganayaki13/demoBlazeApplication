@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="20" total="32" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-18T20:11:03 IST" name="Suite" finished-at="2024-12-18T20:15:16 IST" duration-ms="253146">
+    <groups>
+    </groups>
+    <test started-at="2024-12-18T20:11:03 IST" name="Chrome Test" finished-at="2024-12-18T20:13:08 IST" duration-ms="124399">
+      <class name="test.TC_005_PurchaseCategoryTest">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.TC_005_PurchaseCategoryTest@217ed35e]" started-at="2024-12-18T20:11:03 IST" name="dataSetup" finished-at="2024-12-18T20:11:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method is-config="true" signature="tDetails()[pri:0, instance:test.TC_005_PurchaseCategoryTest@217ed35e]" started-at="2024-12-18T20:12:19 IST" name="tDetails" finished-at="2024-12-18T20:12:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tDetails -->
+        <test-method is-config="true" signature="LaunchAndLoadURL(java.lang.String)[pri:0, instance:test.TC_005_PurchaseCategoryTest@217ed35e]" started-at="2024-12-18T20:12:19 IST" name="LaunchAndLoadURL" finished-at="2024-12-18T20:12:23 IST" duration-ms="3684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndLoadURL -->
+        <test-method signature="purchaseTest()[pri:0, instance:test.TC_005_PurchaseCategoryTest@217ed35e]" started-at="2024-12-18T20:12:23 IST" name="purchaseTest" finished-at="2024-12-18T20:12:56 IST" duration-ms="32824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_005_PurchaseCategoryTest@217ed35e]" started-at="2024-12-18T20:12:56 IST" name="closeBrowser" finished-at="2024-12-18T20:12:56 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_005_PurchaseCategoryTest -->
+      <class name="test.TC_002_LoginTest">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_002_LoginTest@385c9627]" started-at="2024-12-18T20:11:03 IST" name="data" finished-at="2024-12-18T20:11:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="tDetails()[pri:0, instance:test.TC_002_LoginTest@385c9627]" started-at="2024-12-18T20:11:19 IST" name="tDetails" finished-at="2024-12-18T20:11:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tDetails -->
+        <test-method is-config="true" signature="LaunchAndLoadURL(java.lang.String)[pri:0, instance:test.TC_002_LoginTest@385c9627]" started-at="2024-12-18T20:11:19 IST" name="LaunchAndLoadURL" finished-at="2024-12-18T20:11:23 IST" duration-ms="3626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndLoadURL -->
+        <test-method signature="loginTest()[pri:0, instance:test.TC_002_LoginTest@385c9627]" started-at="2024-12-18T20:11:23 IST" name="loginTest" finished-at="2024-12-18T20:11:32 IST" duration-ms="9291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_002_LoginTest@385c9627]" started-at="2024-12-18T20:11:32 IST" name="closeBrowser" finished-at="2024-12-18T20:11:33 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_002_LoginTest -->
+      <class name="test.TC_006_LogoutTest">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.TC_006_LogoutTest@7dcf94f8]" started-at="2024-12-18T20:11:03 IST" name="dataSetup" finished-at="2024-12-18T20:11:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method is-config="true" signature="tDetails()[pri:0, instance:test.TC_006_LogoutTest@7dcf94f8]" started-at="2024-12-18T20:12:56 IST" name="tDetails" finished-at="2024-12-18T20:12:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tDetails -->
+        <test-method is-config="true" signature="LaunchAndLoadURL(java.lang.String)[pri:0, instance:test.TC_006_LogoutTest@7dcf94f8]" started-at="2024-12-18T20:12:56 IST" name="LaunchAndLoadURL" finished-at="2024-12-18T20:12:59 IST" duration-ms="3219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndLoadURL -->
+        <test-method signature="logoutTest()[pri:0, instance:test.TC_006_LogoutTest@7dcf94f8]" started-at="2024-12-18T20:12:59 IST" name="logoutTest" finished-at="2024-12-18T20:13:07 IST" duration-ms="8377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_006_LogoutTest@7dcf94f8]" started-at="2024-12-18T20:13:07 IST" name="closeBrowser" finished-at="2024-12-18T20:13:08 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_006_LogoutTest -->
+      <class name="test.TC_003_ProductCategoryTest">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.TC_003_ProductCategoryTest@139982de]" started-at="2024-12-18T20:11:03 IST" name="dataSetup" finished-at="2024-12-18T20:11:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method is-config="true" signature="LaunchAndLoadURL(java.lang.String)[pri:0, instance:test.TC_003_ProductCategoryTest@139982de]" started-at="2024-12-18T20:11:33 IST" name="LaunchAndLoadURL" finished-at="2024-12-18T20:11:36 IST" duration-ms="3639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndLoadURL -->
+        <test-method is-config="true" signature="tDetails()[pri:0, instance:test.TC_003_ProductCategoryTest@139982de]" started-at="2024-12-18T20:11:33 IST" name="tDetails" finished-at="2024-12-18T20:11:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tDetails -->
+        <test-method signature="productTest()[pri:0, instance:test.TC_003_ProductCategoryTest@139982de]" started-at="2024-12-18T20:11:36 IST" name="productTest" finished-at="2024-12-18T20:12:01 IST" duration-ms="24383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_003_ProductCategoryTest@139982de]" started-at="2024-12-18T20:12:01 IST" name="closeBrowser" finished-at="2024-12-18T20:12:01 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_003_ProductCategoryTest -->
+      <class name="test.TC_004_CartFunctionTest">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.TC_004_CartFunctionTest@682b2fa]" started-at="2024-12-18T20:11:03 IST" name="dataSetup" finished-at="2024-12-18T20:11:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method is-config="true" signature="LaunchAndLoadURL(java.lang.String)[pri:0, instance:test.TC_004_CartFunctionTest@682b2fa]" started-at="2024-12-18T20:12:01 IST" name="LaunchAndLoadURL" finished-at="2024-12-18T20:12:04 IST" duration-ms="3628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndLoadURL -->
+        <test-method is-config="true" signature="tDetails()[pri:0, instance:test.TC_004_CartFunctionTest@682b2fa]" started-at="2024-12-18T20:12:01 IST" name="tDetails" finished-at="2024-12-18T20:12:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tDetails -->
+        <test-method signature="cartTest()[pri:0, instance:test.TC_004_CartFunctionTest@682b2fa]" started-at="2024-12-18T20:12:04 IST" name="cartTest" finished-at="2024-12-18T20:12:19 IST" duration-ms="14775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_004_CartFunctionTest@682b2fa]" started-at="2024-12-18T20:12:19 IST" name="closeBrowser" finished-at="2024-12-18T20:12:19 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_004_CartFunctionTest -->
+      <class name="test.TC_001_SignUpTest">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_001_SignUpTest@7e6f74c]" started-at="2024-12-18T20:11:03 IST" name="data" finished-at="2024-12-18T20:11:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="tDetails()[pri:0, instance:test.TC_001_SignUpTest@7e6f74c]" started-at="2024-12-18T20:11:03 IST" name="tDetails" finished-at="2024-12-18T20:11:03 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tDetails -->
+        <test-method is-config="true" signature="LaunchAndLoadURL(java.lang.String)[pri:0, instance:test.TC_001_SignUpTest@7e6f74c]" started-at="2024-12-18T20:11:03 IST" name="LaunchAndLoadURL" finished-at="2024-12-18T20:11:08 IST" duration-ms="4336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndLoadURL -->
+        <test-method signature="signuUpTest()[pri:0, instance:test.TC_001_SignUpTest@7e6f74c]" started-at="2024-12-18T20:11:08 IST" name="signuUpTest" finished-at="2024-12-18T20:11:19 IST" duration-ms="11785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signuUpTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_001_SignUpTest@7e6f74c]" started-at="2024-12-18T20:11:19 IST" name="closeBrowser" finished-at="2024-12-18T20:11:19 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_001_SignUpTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2024-12-18T20:13:08 IST" name="Edge Test" finished-at="2024-12-18T20:15:16 IST" duration-ms="128704">
+      <class name="test.TC_005_PurchaseCategoryTest">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.TC_005_PurchaseCategoryTest@7817fd62]" started-at="2024-12-18T20:13:08 IST" name="dataSetup" finished-at="2024-12-18T20:13:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method is-config="true" signature="LaunchAndLoadURL(java.lang.String)[pri:0, instance:test.TC_005_PurchaseCategoryTest@7817fd62]" started-at="2024-12-18T20:14:27 IST" name="LaunchAndLoadURL" finished-at="2024-12-18T20:14:32 IST" duration-ms="5097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndLoadURL -->
+        <test-method is-config="true" signature="tDetails()[pri:0, instance:test.TC_005_PurchaseCategoryTest@7817fd62]" started-at="2024-12-18T20:14:27 IST" name="tDetails" finished-at="2024-12-18T20:14:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tDetails -->
+        <test-method signature="purchaseTest()[pri:0, instance:test.TC_005_PurchaseCategoryTest@7817fd62]" started-at="2024-12-18T20:14:32 IST" name="purchaseTest" finished-at="2024-12-18T20:15:03 IST" duration-ms="31684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_005_PurchaseCategoryTest@7817fd62]" started-at="2024-12-18T20:15:03 IST" name="closeBrowser" finished-at="2024-12-18T20:15:04 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_005_PurchaseCategoryTest -->
+      <class name="test.TC_002_LoginTest">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_002_LoginTest@61322f9d]" started-at="2024-12-18T20:13:08 IST" name="data" finished-at="2024-12-18T20:13:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="LaunchAndLoadURL(java.lang.String)[pri:0, instance:test.TC_002_LoginTest@61322f9d]" started-at="2024-12-18T20:13:24 IST" name="LaunchAndLoadURL" finished-at="2024-12-18T20:13:29 IST" duration-ms="5420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndLoadURL -->
+        <test-method is-config="true" signature="tDetails()[pri:0, instance:test.TC_002_LoginTest@61322f9d]" started-at="2024-12-18T20:13:24 IST" name="tDetails" finished-at="2024-12-18T20:13:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tDetails -->
+        <test-method signature="loginTest()[pri:0, instance:test.TC_002_LoginTest@61322f9d]" started-at="2024-12-18T20:13:29 IST" name="loginTest" finished-at="2024-12-18T20:13:37 IST" duration-ms="7782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_002_LoginTest@61322f9d]" started-at="2024-12-18T20:13:37 IST" name="closeBrowser" finished-at="2024-12-18T20:13:37 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_002_LoginTest -->
+      <class name="test.TC_006_LogoutTest">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.TC_006_LogoutTest@8297b3a]" started-at="2024-12-18T20:13:08 IST" name="dataSetup" finished-at="2024-12-18T20:13:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method is-config="true" signature="tDetails()[pri:0, instance:test.TC_006_LogoutTest@8297b3a]" started-at="2024-12-18T20:15:04 IST" name="tDetails" finished-at="2024-12-18T20:15:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tDetails -->
+        <test-method is-config="true" signature="LaunchAndLoadURL(java.lang.String)[pri:0, instance:test.TC_006_LogoutTest@8297b3a]" started-at="2024-12-18T20:15:04 IST" name="LaunchAndLoadURL" finished-at="2024-12-18T20:15:08 IST" duration-ms="4407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndLoadURL -->
+        <test-method signature="logoutTest()[pri:0, instance:test.TC_006_LogoutTest@8297b3a]" started-at="2024-12-18T20:15:08 IST" name="logoutTest" finished-at="2024-12-18T20:15:16 IST" duration-ms="8143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_006_LogoutTest@8297b3a]" started-at="2024-12-18T20:15:16 IST" name="closeBrowser" finished-at="2024-12-18T20:15:16 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_006_LogoutTest -->
+      <class name="test.TC_003_ProductCategoryTest">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.TC_003_ProductCategoryTest@6ad82709]" started-at="2024-12-18T20:13:08 IST" name="dataSetup" finished-at="2024-12-18T20:13:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method is-config="true" signature="tDetails()[pri:0, instance:test.TC_003_ProductCategoryTest@6ad82709]" started-at="2024-12-18T20:13:37 IST" name="tDetails" finished-at="2024-12-18T20:13:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tDetails -->
+        <test-method is-config="true" signature="LaunchAndLoadURL(java.lang.String)[pri:0, instance:test.TC_003_ProductCategoryTest@6ad82709]" started-at="2024-12-18T20:13:37 IST" name="LaunchAndLoadURL" finished-at="2024-12-18T20:13:42 IST" duration-ms="5289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndLoadURL -->
+        <test-method signature="productTest()[pri:0, instance:test.TC_003_ProductCategoryTest@6ad82709]" started-at="2024-12-18T20:13:42 IST" name="productTest" finished-at="2024-12-18T20:14:06 IST" duration-ms="23820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_003_ProductCategoryTest@6ad82709]" started-at="2024-12-18T20:14:06 IST" name="closeBrowser" finished-at="2024-12-18T20:14:06 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_003_ProductCategoryTest -->
+      <class name="test.TC_001_SignUpTest">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:test.TC_001_SignUpTest@65e98b1c]" started-at="2024-12-18T20:11:03 IST" name="reportInitialization" finished-at="2024-12-18T20:11:03 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialization -->
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_001_SignUpTest@65e98b1c]" started-at="2024-12-18T20:13:08 IST" name="data" finished-at="2024-12-18T20:13:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="tDetails()[pri:0, instance:test.TC_001_SignUpTest@65e98b1c]" started-at="2024-12-18T20:13:08 IST" name="tDetails" finished-at="2024-12-18T20:13:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tDetails -->
+        <test-method is-config="true" signature="LaunchAndLoadURL(java.lang.String)[pri:0, instance:test.TC_001_SignUpTest@65e98b1c]" started-at="2024-12-18T20:13:08 IST" name="LaunchAndLoadURL" finished-at="2024-12-18T20:13:11 IST" duration-ms="3727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndLoadURL -->
+        <test-method signature="signuUpTest()[pri:0, instance:test.TC_001_SignUpTest@65e98b1c]" started-at="2024-12-18T20:13:11 IST" name="signuUpTest" finished-at="2024-12-18T20:13:23 IST" duration-ms="12139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signuUpTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_001_SignUpTest@65e98b1c]" started-at="2024-12-18T20:13:23 IST" name="closeBrowser" finished-at="2024-12-18T20:13:24 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:test.TC_001_SignUpTest@65e98b1c]" started-at="2024-12-18T20:15:16 IST" name="closeReport" finished-at="2024-12-18T20:15:17 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- test.TC_001_SignUpTest -->
+      <class name="test.TC_004_CartFunctionTest">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.TC_004_CartFunctionTest@510f3d34]" started-at="2024-12-18T20:13:08 IST" name="dataSetup" finished-at="2024-12-18T20:13:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method is-config="true" signature="tDetails()[pri:0, instance:test.TC_004_CartFunctionTest@510f3d34]" started-at="2024-12-18T20:14:06 IST" name="tDetails" finished-at="2024-12-18T20:14:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tDetails -->
+        <test-method is-config="true" signature="LaunchAndLoadURL(java.lang.String)[pri:0, instance:test.TC_004_CartFunctionTest@510f3d34]" started-at="2024-12-18T20:14:06 IST" name="LaunchAndLoadURL" finished-at="2024-12-18T20:14:12 IST" duration-ms="5323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAndLoadURL -->
+        <test-method signature="cartTest()[pri:0, instance:test.TC_004_CartFunctionTest@510f3d34]" started-at="2024-12-18T20:14:12 IST" name="cartTest" finished-at="2024-12-18T20:14:26 IST" duration-ms="14593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_004_CartFunctionTest@510f3d34]" started-at="2024-12-18T20:14:26 IST" name="closeBrowser" finished-at="2024-12-18T20:14:27 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_004_CartFunctionTest -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Suite -->
+</testng-results>
