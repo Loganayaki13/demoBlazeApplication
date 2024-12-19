@@ -2,6 +2,7 @@ package test;
 
 import java.io.IOException;
 
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -15,6 +16,11 @@ public class TC_006_LogoutTest extends ProjectSpecificationMethods {
 		testName = "Logout Functionality";
 		testDescription = "Testing the logout functionalities";
 		testAuthor = "Loganayaki";
+	}
+
+	@BeforeClass
+	public void tDetails() {
+		details();
 	}
 
 	@Test

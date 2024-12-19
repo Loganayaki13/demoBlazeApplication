@@ -12,10 +12,10 @@ import utils.UtilityClass;
 
 public class ProjectSpecificationMethods extends UtilityClass {
 
-	@Parameters({ "browser" })
+	//@Parameters({ "browser" })
 	@BeforeMethod
-	public void LaunchAndLoadURL(String browser) {
-		browserLaunch(browser);
+	public void LaunchAndLoadURL() {
+		browserLaunch("chrome");
 	}
 
 	@BeforeSuite

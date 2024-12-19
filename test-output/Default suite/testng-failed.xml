@@ -3,16 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.TC_005_PurchaseCategoryTest">
+      <class name="test.TC_002_LoginTest">
         <methods>
           <include name="dataSetup"/>
-          <include name="tDetails"/>
-          <include name="purchaseTest"/>
           <include name="LaunchAndLoadURL"/>
+          <include name="closeBrowser"/>
+          <include name="tDetails"/>
           <include name="reportInitialization"/>
+          <include name="loginTest"/>
           <include name="closeReport"/>
         </methods>
-      </class> <!-- test.TC_005_PurchaseCategoryTest -->
+      </class> <!-- test.TC_002_LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

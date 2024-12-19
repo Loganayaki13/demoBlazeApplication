@@ -24,7 +24,7 @@ public class TC_002_LoginTest extends ProjectSpecificationMethods {
 		details();
 	}
 
-	@Test(priority = 0)
+	@Test
 	public void loginTest() throws InterruptedException, IOException {
 		HomePage obj = new HomePage(driver);
 

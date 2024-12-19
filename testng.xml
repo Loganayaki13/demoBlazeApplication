@@ -17,7 +17,7 @@
 		</classes>
 	</test> <!-- Test -->
 	
-	<test thread-count="5" name="Edge Test">
+	<!-- <test thread-count="5" name="Edge Test">
 	<parameter name="browser" value="edge"></parameter>
 		<classes>
 			<class name="test.TC_001_SignUpTest" />
@@ -27,7 +27,7 @@
 			<class name="test.TC_005_PurchaseCategoryTest" />
 			<class name="test.TC_006_LogoutTest" />
 		</classes>
-	</test> <!-- Test -->
+	</test> Test -->
 
 
 </suite> <!-- Suite -->

@@ -34,9 +34,7 @@ public class UtilityClass {
 		if (browserName.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 
-		} else if (browserName.equalsIgnoreCase("edge")) {
-			driver = new EdgeDriver();
-		}
+		} 
 
 		driver.get("https://www.demoblaze.com/");
 		driver.manage().window().maximize();

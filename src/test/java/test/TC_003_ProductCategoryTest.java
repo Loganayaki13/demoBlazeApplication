@@ -2,6 +2,7 @@ package test;
 
 import java.io.IOException;
 
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -16,6 +17,11 @@ public class TC_003_ProductCategoryTest extends ProjectSpecificationMethods {
 		testName = "Product page Functionality";
 		testDescription = "Testing the product page functionalities";
 		testAuthor = "Loganayaki";
+	}
+
+	@BeforeClass
+	public void tDetails() {
+		details();
 	}
 
 	@Test
