@@ -14,7 +14,7 @@ public class Listener extends ProjectSpecificationMethods implements ITestListen
 
 	@Override
 	public void onTestStart(ITestResult result) {
-		
+
 	}
 
 	@Override
@@ -25,11 +25,11 @@ public class Listener extends ProjectSpecificationMethods implements ITestListen
 	@Override
 	public void onTestFailure(ITestResult result) {
 		test.fail(result.getThrowable());
-		String filePath = null; 
-		try { filePath = screenShot(result.getMethod().getMethodName()); 
-		} 
-		catch (IOException e) {
-			e.printStackTrace(); 
+		String filePath = null;
+		try {
+			filePath = screenShot(result.getMethod().getMethodName());
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 		test.addScreenCaptureFromPath(filePath, result.getMethod().getMethodName());
 	}
@@ -41,24 +41,22 @@ public class Listener extends ProjectSpecificationMethods implements ITestListen
 
 	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		
+
 	}
 
 	@Override
 	public void onTestFailedWithTimeout(ITestResult result) {
-		
+
 	}
 
 	@Override
 	public void onStart(ITestContext context) {
-		
+
 	}
 
 	@Override
 	public void onFinish(ITestContext context) {
-		
+
 	}
-	
-	
 
 }

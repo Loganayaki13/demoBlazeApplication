@@ -11,43 +11,41 @@ import org.testng.Assert;
 
 import base.ProjectSpecificationMethods;
 
-public class ProductCategoryPage extends ProjectSpecificationMethods{
+public class ProductCategoryPage extends ProjectSpecificationMethods {
 
 	public ProductCategoryPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath="(//a[contains(@class,'nav-link')])[1]")
+
+	@FindBy(xpath = "(//a[contains(@class,'nav-link')])[1]")
 	WebElement home;
-	
-	@FindBy(xpath="(//a[contains(@class,'nav-link')])[2]")
-	WebElement contact;
-	
-	@FindBy(xpath="(//a[contains(@class,'nav-link')])[3]")
-	WebElement aboutus;
-	
-	@FindBy(xpath="(//a[contains(@class,'list-group-item')])[2]")
+	@FindBy(xpath = "(//a[contains(@class,'list-group-item')])[2]")
 	WebElement phones;
-	
-	@FindBy(xpath="(//a[contains(@class,'list-group-item')])[3]")
+	@FindBy(xpath = "(//a[contains(@class,'list-group-item')])[3]")
 	WebElement laptops;
-	
-	@FindBy(xpath="(//a[contains(@class,'list-group-item')])[4]")
+
+	@FindBy(xpath = "(//a[contains(@class,'nav-link')])[2]")
+	WebElement contact;
+
+	@FindBy(xpath = "(//a[contains(@class,'nav-link')])[3]")
+	WebElement aboutus;
+
+	@FindBy(xpath = "(//a[contains(@class,'list-group-item')])[4]")
 	WebElement monitors;
-	
-	@FindBy(xpath="//a[contains(text(),'Sony vaio i5')]")
+
+	@FindBy(xpath = "//a[contains(text(),'Sony vaio i5')]")
 	WebElement product;
-	
-	@FindBy(xpath="(//a[@class='list-group-item'])[3]")
+
+	@FindBy(xpath = "(//a[@class='list-group-item'])[3]")
 	WebElement laptopClick;
-	
-	@FindBy(linkText="Cart")
+
+	@FindBy(linkText = "Cart")
 	WebElement cart;
-	
-	
+
 	public ProductCategoryPage menuValtidation() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		Assert.assertTrue(home.isDisplayed());		
+		Assert.assertTrue(home.isDisplayed());
 		Assert.assertTrue(phones.isDisplayed());
 		Assert.assertTrue(laptops.isDisplayed());
 		Assert.assertTrue(contact.isDisplayed());
@@ -55,8 +53,7 @@ public class ProductCategoryPage extends ProjectSpecificationMethods{
 		Assert.assertTrue(monitors.isDisplayed());
 		return this;
 	}
-	
-	
+
 	public ProductCategoryPage productSelect() throws InterruptedException {
 		Thread.sleep(5000);
 		laptopClick.click();
@@ -66,14 +63,13 @@ public class ProductCategoryPage extends ProjectSpecificationMethods{
 		driver.navigate().back();
 		return this;
 	}
-	
-    //opening the cart
-    public HomePage clickingCart() throws InterruptedException {
-    	Thread.sleep(5000);
-    	cart.click();
-    	ele=driver.findElement(By.xpath("//td[contains(text(),'Sony vaio i5')]"));
-    	Assert.assertTrue(ele.isDisplayed());
-    	return new HomePage(driver);
-    	
-    }
+
+	public HomePage clickingCart() throws InterruptedException {
+		Thread.sleep(5000);
+		cart.click();
+		ele = driver.findElement(By.xpath("//td[contains(text(),'Sony vaio i5')]"));
+		Assert.assertTrue(ele.isDisplayed());
+		return new HomePage(driver);
+
+	}
 }

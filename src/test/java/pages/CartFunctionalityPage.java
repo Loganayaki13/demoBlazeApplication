@@ -10,16 +10,15 @@ import org.testng.Assert;
 import base.ProjectSpecificationMethods;
 
 public class CartFunctionalityPage extends ProjectSpecificationMethods {
-	
+
 	public CartFunctionalityPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
-	
+
 	public HomePage amout() throws InterruptedException {
 		Thread.sleep(5000);
-		ele =driver.findElement(By.xpath("//h3[@id='totalp']"));
+		ele = driver.findElement(By.xpath("//h3[@id='totalp']"));
 		Assert.assertTrue(ele.isDisplayed());
 		return new HomePage(driver);
 	}

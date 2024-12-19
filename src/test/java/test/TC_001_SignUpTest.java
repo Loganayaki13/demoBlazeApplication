@@ -10,27 +10,24 @@ import base.ProjectSpecificationMethods;
 import pages.HomePage;
 
 public class TC_001_SignUpTest extends ProjectSpecificationMethods {
-	
-	@BeforeTest 
-	public void data() throws IOException { 
-	
+
+	@BeforeTest
+	public void dataSetup() throws IOException {
+
 		testName = "SignUp Functionality";
-	    testDescription = "Testing the SignUp functionality"; 
-	    testAuthor = "Loganayaki"; 
+		testDescription = "Testing the SignUp functionality";
+		testAuthor = "Loganayaki";
 	}
+
 	@BeforeClass
 	public void tDetails() {
 		details();
 	}
-	
+
 	@Test
 	public void signuUpTest() throws InterruptedException, IOException {
 		HomePage obj = new HomePage(driver);
-		obj.signUpButton()
-		.userName("Loganayaki")
-		.passWord("123456")
-		.refresh()
-		.clickSingup();
+		obj.signUpButton().userName("Loganayaki").passWord("123456").refresh().clickSingup();
 	}
 
 }

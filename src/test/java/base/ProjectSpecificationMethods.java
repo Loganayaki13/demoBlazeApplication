@@ -12,7 +12,6 @@ import utils.UtilityClass;
 
 public class ProjectSpecificationMethods extends UtilityClass {
 
-	// Launching the browser
 	@Parameters({ "browser" })
 	@BeforeMethod
 	public void LaunchAndLoadURL(String browser) {
@@ -34,7 +33,9 @@ public class ProjectSpecificationMethods extends UtilityClass {
 		details();
 	}
 
-	  @AfterMethod 
-	  public void closeBrowser() { browserClose(); }
-	 
+	@AfterMethod
+	public void closeBrowser() {
+		browserClose();
+	}
+
 }

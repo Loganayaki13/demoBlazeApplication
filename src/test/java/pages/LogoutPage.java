@@ -10,12 +10,12 @@ import org.testng.Assert;
 import base.ProjectSpecificationMethods;
 
 public class LogoutPage extends ProjectSpecificationMethods {
-	
+
 	public LogoutPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	public HomePage finalLogOut() {
 		driver.findElement(By.xpath("//a[@id='logout2']")).click();
 		return new HomePage(driver);

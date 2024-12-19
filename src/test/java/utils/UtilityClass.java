@@ -47,31 +47,25 @@ public class UtilityClass {
 		driver.close();
 	}
 
-	// sendKeysMethod
 	public void sendKeysMethod(WebElement ele, String input) {
 		ele.sendKeys(input);
 	}
 
-
-	// creating the report in the location
 	public void reptInitilization() {
 		String path = "C:\\Users\\Asus\\eclipse-workspace\\JAT-MiniProject-1-Version-1\\report\\DemoBlazeApp\\DemoBlaze_App.html";
-		// to crate a report in given location
+
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("DemoBlaze Application");
 
-		// to capture the data
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 	}
 
-	// Giving the test details
 	public void details() {
 		test = extent.createTest(testName, testDescription);
 		test.assignAuthor(testAuthor);
 	}
 
-	// screenshot method for failed testcase
 	public String screenShot(String name) throws IOException {
 		String path = "C:\\Users\\Asus\\eclipse-workspace\\JAT-MiniProject-1-Version-1\\Snaps\\" + name + ".png";
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -80,7 +74,6 @@ public class UtilityClass {
 		return path;
 	}
 
-	// common logout
 	public HomePage logOut() {
 		driver.findElement(By.xpath("//a[contains(@id,'logout2')]")).click();
 		return new HomePage(driver);

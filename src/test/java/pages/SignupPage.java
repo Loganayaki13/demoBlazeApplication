@@ -25,19 +25,16 @@ public class SignupPage extends ProjectSpecificationMethods {
 		PageFactory.initElements(driver, this);
 	}
 
-	//Enter the username
 	public SignupPage userName(String name) {
 		sendKeysMethod(user, name);
 		return this;
 	}
 
-	//Enter the password
 	public SignupPage passWord(String pass) {
 		sendKeysMethod(password, pass);
 		return this;
 	}
 
-	// click the signUp button
 	public HomePage clickSingup() throws InterruptedException {
 		ele = driver.findElement(By.xpath("//a[@id='signin2']"));
 		Assert.assertTrue(ele.isEnabled(), "Signup button is enabled");
@@ -47,7 +44,7 @@ public class SignupPage extends ProjectSpecificationMethods {
 		driver.navigate().refresh();
 		return new HomePage(driver);
 	}
-	
+
 	public SignupPage refresh() {
 		driver.navigate().refresh();
 		return this;
